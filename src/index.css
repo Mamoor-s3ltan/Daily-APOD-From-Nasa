@@ -129,6 +129,21 @@ footer button:hover{
   opacity: 0.7;
 }
 
+.paraDesc{
+  margin-bottom: 18px;
+}
+
+.read{
+  cursor: pointer;
+  border: transparent;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 0px 14px #888888;
+}
+.read:hover{
+  box-shadow: 1px 0px 14px #0278ee;
+  
+}
 .loadingState{
   display: flex;
   align-items: center;
@@ -141,6 +156,7 @@ footer button:hover{
   font-size: 3rem;
   animation: spin 1s linear infinite;
 }
+
 
 @keyframes spin{
   from{

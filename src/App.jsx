@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/sidebar";
 
 function App() {
   const [showModel, setshowModel] = useState(false);
